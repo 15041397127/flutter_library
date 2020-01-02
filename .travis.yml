@@ -36,7 +36,7 @@ matrix:
         provider: releases
         api_key: ${GITHUB_TOKEN}
         file:
-          - .android/Flutter/build/outputs/aar/flutter-release.apk
+          - .android/Flutter/build/outputs/aar/flutter-release.aar
         skip_cleanup: true
         on:
           tags: true
