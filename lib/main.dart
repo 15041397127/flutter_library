@@ -15,7 +15,7 @@ Widget _widgetForRoute(String route) {
           backgroundColor: const Color(0xFFD63031),
           body: Center(
             child: Text(
-              
+
               'Hello from Flutter',
               textDirection: TextDirection.ltr,
               style: TextStyle(
