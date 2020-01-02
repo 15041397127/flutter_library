@@ -47,7 +47,7 @@ matrix:
         - pod repo update
       script:
         - flutter doctor && flutter -v build ios --no-codesign
-      #对构建产物进行预处理，压缩成zip格式的组件
+       #对构建产物进行预处理，压缩成zip格式的组件
       before_deploy:
         - mkdir .ios/Outputs && mkdir .ios/Outputs/FlutterEngine
         - cp FlutterEngine.podspec .ios/Outputs/
