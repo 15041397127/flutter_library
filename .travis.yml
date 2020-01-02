@@ -62,9 +62,9 @@ matrix:
         skip_cleanup: true
         on:
           tags: true
-    before_install:
-      - git clone -b 'v1.9.1+hotfix.6' --depth 1 https://github.com/flutter/flutter.git
-      - export PATH="$PATH:`pwd`/flutter/bin"
-    cache:
-      directories:
-        - $HOME/.pub-cache
+before_install:
+    - git clone -b 'v1.9.1+hotfix.6' --depth 1 https://github.com/flutter/flutter.git
+    - export PATH="$PATH:`pwd`/flutter/bin"
+cache:
+  directories:
+    - $HOME/.pub-cache
