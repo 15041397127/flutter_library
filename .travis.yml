@@ -63,7 +63,7 @@ matrix:
         on:
           tags: true
     install:
-      - git clone -b 'v1.9.1+hotfix.6' --depth 1 https://github.com/flutter/flutter.git
+      - git clone https://github.com/flutter/flutter.git
       - export PATH="$PATH:`pwd`/flutter/bin"
     cahe:
       directories:
