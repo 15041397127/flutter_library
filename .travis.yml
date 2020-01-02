@@ -67,4 +67,4 @@ matrix:
       - export PATH="$PATH:`pwd`/flutter/bin"
     cache:
       directories:
-        - $HOME/.pub-cache
+        - $HOME/.pub-cache  
