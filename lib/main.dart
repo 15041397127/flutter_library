@@ -19,7 +19,7 @@ Widget _widgetForRoute(String route) {
               textDirection: TextDirection.ltr,
               style: TextStyle(
                 fontSize: 20.0,
-                color: Colors.cyan,
+                color: Colors.red,
               ),
             ),
           ),
